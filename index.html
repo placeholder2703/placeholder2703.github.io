@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <h1 id="msg">hello</h1>
+
+    <script>
+        const params = new URLSearchParams(location.search);
+        document.getElementById("msg").textContent =
+            params.get("message") || "nothing here";
+    </script>
+</body>
+</html>

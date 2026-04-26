@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Message</title>
-    <link rel="stylesheet" href="style.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Message</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 id="msg">hello</h1>
-
-    <script>
-        const params = new URLSearchParams(location.search);
-        document.getElementById("msg").textContent =
-            params.get("msg") || "placeholdar";
-    </script>
+	<h1 id="msg">hello</h1>
+	<script src="script.js"></script>
 </body>
 </html>
